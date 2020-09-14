@@ -2,8 +2,7 @@ pipeline {
     agent any
     tools { 
         maven 'Maven 3.3.9' 
-        jdk 'jdk8'
-	args '-v /root/.m2:/root/.m2' 
+        jdk 'jdk8' 
     }
     stages {
         stage ('Build') {
