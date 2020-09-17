@@ -8,7 +8,7 @@ import org.junit.After;
 import static org.junit.Assert.*;
 
 /**
- * Unit test for simple App.
+ * Unit test for simple App. World
  */
 public class AppTest
 {
@@ -34,7 +34,7 @@ public class AppTest
     {
         App.main(null);
         try {
-            assertEquals("Hello World!" + System.getProperty("line.separator"), outContent.toString());
+            assertEquals("Hello Sumit!" + System.getProperty("line.separator"), outContent.toString());
         } catch (AssertionError e) {
             fail("\"message\" is not \"Hello World!\"");
         }
